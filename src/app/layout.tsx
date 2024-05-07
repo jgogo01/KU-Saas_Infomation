@@ -3,6 +3,8 @@ import { Cormorant , Playfair } from "next/font/google";
 
 import "./globals.css";
 
+import Navigation from "@/Components/navigation/navigation";
+
 // const cormorant = Cormorant({
 //   weight: ["300","400","700"],
 //   subsets: ["latin"],
@@ -26,7 +28,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={playfair.className}>{children}</body>
+      <body className={playfair.className}>
+        <Navigation/>
+        {children}
+      </body>
     </html>
   );
 }
