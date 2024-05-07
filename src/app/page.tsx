@@ -1,4 +1,4 @@
-import Navigation from "@/Components/navigation/navigation";
+import { Carousel } from "antd";
 
 export default function Home() {
   return (
