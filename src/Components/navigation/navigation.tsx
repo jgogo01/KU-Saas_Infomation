@@ -3,6 +3,8 @@
 import React from 'react'
 
 import { IoMenuOutline } from "react-icons/io5";
+import { RiHotelLine } from "react-icons/ri";
+
 import { LuHotel } from "react-icons/lu";
 
 
@@ -16,7 +18,7 @@ export default function Navigation({}: Props) {
             <div className='flex flex-row w-full items-center justify-between mobile:px-[3vw] text-gray-800 font-medium md:text-lg lg:text-xl lg:px-[3vw] xl:px-[6vw] '>
                 <span className='hover:bg-gray-100 h-full py-[2vh] px-[2vw]'>
                     <Link href="/">
-                        <LuHotel className='text-3xl  font-thin'/>
+                        <RiHotelLine className='text-3xl  font-thin'/>
                     </Link>
                 </span>
                 <ul className='flex flex-row gap-x-[2vw] lg:gap-x-[3vw] items-center w-full'>
@@ -28,44 +30,45 @@ export default function Navigation({}: Props) {
                             }}
                         >   
                         <h1 className='hover:opacity-75'>
-                            qwer
+                            <IoMenuOutline/>
                         </h1>
                         </button>
                     </li>  
-                    <li className='sm:flex md:hidden hover:bg-gray-100 h-full py-[2vh] px-[2vw]'>
+                    {/* <li className='sm:flex md:hidden hover:bg-gray-100 h-full py-[2vh] px-[2vw]'>
                         <span className=''>
-                            <IoMenuOutline/>
+                            language changing button
                         </span>
-                    </li>
+                    </li> */}
                     <ul className='mobile:hidden md:flex flex-row items-center  w-full '>
                         <li className='mobile:hidden md:flex w-full justify-center items-center hover:bg-gray-100 h-full py-[2vh] px-[2vw]'>
-                            <Link href='/marketplace'>
-                                <h1 className='lg:text-xl md:text-base'>About us </h1>
+                            <Link href='/about-us'>
+                                <h1 className='lg:text-xl md:text-base'>ABOUT US</h1>
                             </Link>
                         </li>
                         <li className='mobile:hidden md:flex flex-row gap-x-[1vw] w-full justify-center items-center hover:bg-gray-100 h-full py-[2vh] px-[2vw]'> 
-                            <Link href='/benefit'>
-                                <h1 className='lg:text-xl md:text-base'>Organize</h1>
+                            <Link href='/room'>
+                                <h1 className='lg:text-xl md:text-base'>ROOM</h1>
+                            </Link>
+                        </li>      
+                        <li className='mobile:hidden md:flex flex-row gap-x-[1vw] w-full justify-center items-center hover:bg-gray-100 h-full py-[2vh] px-[2vw]'> 
+                            <Link href='/offers'>
+                                <h1 className='lg:text-xl md:text-base'>FACILITIES</h1>
+                            </Link>
+                        </li>                     
+                        <li className='mobile:hidden md:flex flex-row gap-x-[1vw] w-full justify-center items-center hover:bg-gray-100 h-full py-[2vh] px-[2vw]'> 
+                            <Link href='/offers'>
+                                <h1 className='lg:text-xl md:text-base'>OFFERS</h1>
                             </Link>
                         </li>  
+
                         <li className='mobile:hidden md:flex flex-row gap-x-[1vw] w-full justify-center items-center hover:bg-gray-100 h-full py-[2vh] px-[2vw]'> 
-                            <Link href='/benefit'>
-                                <h1 className='lg:text-xl md:text-base'>Organize</h1>
+                            <Link href='/contact'>
+                                <h1 className='lg:text-xl md:text-base'>CONTACT</h1>
                             </Link>
-                        </li>  
-                        <li className='mobile:hidden md:flex flex-row gap-x-[1vw] w-full justify-center items-center hover:bg-gray-100 h-full py-[2vh] px-[2vw]'> 
-                            <Link href='/benefit'>
-                                <h1 className='lg:text-xl md:text-base'>Organize</h1>
-                            </Link>
-                        </li>  
-                        <li className='mobile:hidden md:flex flex-row gap-x-[1vw] w-full justify-center items-center hover:bg-gray-100 h-full py-[2vh] px-[2vw]'> 
-                            <Link href='/benefit'>
-                                <h1 className='lg:text-xl md:text-base'>Organize</h1>
-                            </Link>
-                        </li>  
-                        <li className='mobile:hidden md:flex flex-row gap-x-[1vw] w-full justify-center items-center hover:bg-gray-100 h-full py-[2vh] px-[2vw]'> 
-                            <Link href='/benefit'>
-                                <h1 className='lg:text-xl md:text-base'>Organize</h1>
+                        </li>
+                        <li className='mobile:hidden md:flex flex-row gap-x-[1vw] w-full justify-center items-center bg-gold opacity-70 hover:opacity-100   h-full py-[2vh] px-[2vw]'> 
+                            <Link href='/booking'>
+                                <h1 className='lg:text-xl md:text-base'>BOOK NOW</h1>
                             </Link>
                         </li>                        
                     </ul>

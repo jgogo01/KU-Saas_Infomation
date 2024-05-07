@@ -16,6 +16,9 @@ const config: Config = {
       screens: {
         'mobile': '0px',  // Added mobile screen size starting from 0px
       },
+      colors :{
+        gold : '#A4973F'
+      }
     },
   },
   plugins: [],
