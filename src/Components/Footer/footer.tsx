@@ -13,7 +13,7 @@ import { FaFacebook } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className='flex flex-col w-full bg-coldGold opacity-95 hover:opacity-100 text-white pt-[5vh] pb-[3vh]'>
+    <footer className='flex flex-col w-full bg-coldGold opacity-80 hover:opacity-100 text-white pt-[5vh] pb-[3vh] transition-all duration-1000'>
         <div className='flex flex-col items-center justify-center text-center w-full gap-y-[2.5vh] px-[2vw]'>
             <h1 className='text-3xl'>
                 {/* The SaaS Residence Hotel */}
