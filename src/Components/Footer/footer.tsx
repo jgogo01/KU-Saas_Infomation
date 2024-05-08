@@ -16,7 +16,8 @@ export default function Footer() {
     <footer className='flex flex-col w-full bg-coldGold opacity-95 hover:opacity-100 text-white pt-[5vh] pb-[3vh]'>
         <div className='flex flex-col items-center justify-center text-center w-full gap-y-[2.5vh] px-[2vw]'>
             <h1 className='text-3xl'>
-                The SaaS Residence Hotel
+                {/* The SaaS Residence Hotel */}
+                THE SAAS RESIDENCE HOTEL
             </h1>
             <h2 className='text-xl'>
             518/8 Chaopraya Road, Bangbuathong, Bangkratuek, Nonthaburi, 11000
@@ -42,7 +43,7 @@ export default function Footer() {
                 </div>
                 <div className='flex flex-row items-center gap-x-[1vw]'>
                     <FaFacebook className='text-2xl'/>
-                    <p className='hover:underline text-lg cursor-pointer'>
+                    <p className='hover:underline text-lg cursor-pointer transition-all duration-700'>
                         SaaSResidence
                     </p>                
                 </div>     
@@ -51,29 +52,29 @@ export default function Footer() {
         <div className='px-[3vw]'>
             <Divider style={{borderTop: '2px solid #B3AD7A' }}/>
         </div>
-        <div className='flex mobile:flex-col mobile:gap-y-[1vh] md:flex-row items-center text-center w-full justify-between px-[3vw]'>
+        <div className='flex mobile:flex-col mobile:gap-y-[1vh] md:flex-row items-center text-center w-full justify-between px-[5vw]'>
             <Link href='/'>
-                <h1 className='text-2xl hover:text-black transition-color'>
+                <h1 className='text-2xl hover:text-black transition-color duration-700'>
                     HOME
                 </h1>
             </Link>
             <Link href='/accomodation'>
-                <h1 className='text-2xl hover:text-black transition-color'>
+                <h1 className='text-2xl hover:text-black transition-color duration-700'>
                     ROOM
                 </h1>
             </Link>
             <Link href='/facility'>
-                <h1 className='text-2xl hover:text-black transition-color'>
+                <h1 className='text-2xl hover:text-black transition-color duration-700 '>
                     FACILITY
                 </h1>
             </Link>
             <Link href='/location'>
-                <h1 className='text-2xl hover:text-black transition-color'>
+                <h1 className='text-2xl hover:text-black transition-color duration-700'>
                     LOCATION
                 </h1>
             </Link>
             <Link href='/contact'>
-                <h1 className='text-2xl hover:text-black transition-color '>
+                <h1 className='text-2xl hover:text-black transition-color duration-700 '>
                     CONTACT
                 </h1>
             </Link>

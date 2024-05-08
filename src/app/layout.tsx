@@ -29,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${playfair.className} overflow-x-hidden`}>
+      <body className={`${playfair.className}`}>
         <Navigation/>
         {children}
         <Footer/>

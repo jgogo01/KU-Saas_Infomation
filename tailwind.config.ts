@@ -18,7 +18,8 @@ const config: Config = {
       },
       colors :{
         gold : '#A4973F',
-        coldGold : '#9B955D'
+        coldGold : '#9B955D',
+        richGold : '#C8B273'
       }
     },
   },
