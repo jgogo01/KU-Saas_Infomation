@@ -1,15 +1,13 @@
 import CarouselRender from '@/Components/Carousel/Carousel';
+import HotelInfo from '@/Components/Pages/Home/hotelInfo';
+import Footer from '@/Components/Footer/footer';
 
 export default function Home() {
   return (
     <main className="">
-      <div className=''>
-        <CarouselRender/>
-      </div>
-      <div className='h-[50vh]'>
-        Welcom to ours hotel
-      </div>
-      
+      <CarouselRender/>
+      <HotelInfo/>
+      <Footer/>
     </main>
   );
 }

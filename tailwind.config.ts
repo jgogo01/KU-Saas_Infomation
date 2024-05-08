@@ -17,7 +17,8 @@ const config: Config = {
         'mobile': '0px',  // Added mobile screen size starting from 0px
       },
       colors :{
-        gold : '#A4973F'
+        gold : '#A4973F',
+        coldGold : '#9B955D'
       }
     },
   },
