@@ -1,37 +1,151 @@
 import React from 'react'
 
 import Link from 'next/link'
+import Image from 'next/image'
 
 type Props = {}
 
 export default function Accomodation({}: Props) {
   return (
-    <section>
+    <section className=''>
         <div className='flex flex-col'>
-          <h1>
-            Accomodation
-          </h1>
-          <ul>
-            <li>
-              <Link href='/accomodation/standard'>
-                <h1>Standard Room</h1>
-              </Link>
+          {/* <h1 className='text-4xl text-center'>
+            ACCOMMODATION
+          </h1> */}
+          <ul className='items-center justify-center'>
+            <li className='bg-gray-800 text-white'>
+              <div className='flex flex-row items-center justify-center w-full hover:p-8 transition-all duration-1000'> 
+                <Image
+                  src='/assets/hotelsImg/In2.png'
+                  alt=''
+                  width={3840}
+                  height={2160}
+                  className='w-2/5 hover:scale-95 transition-all duration-1000 mobile:px-[1vw] md:p-0'
+                />
+                <div className='flex flex-col w-full text-center gap-y-[1vh] mobile:py-[3vh] md:p-0'>
+                  <h1 className='mobile:text-xl md:text-4xl'>
+                    STANDARD ROOM
+                  </h1>
+                  <p className='px-[5vw] mb-[2vh] mobile:text-sm md:text-lg lg:text-xl'>
+                    Experience comfort and convenience in our Standard rooms, designed for a relaxing stay. These rooms offer modern amenities and a cozy ambiance, providing everything you need for a pleasant retreat.
+                  </p>
+                  <div className='flex mobile:flex-col md:flex-row gap-y-[1vh] gap-x-[2vw] items-center  mobile:center md:justify-between px-[5vw]'>
+                    <Link
+                      href='/accomodation/standard'
+                      className='w-full bg-white bg-opacity-0 hover:bg-opacity-10 text-white hover:text-gray-100 border border-white rounded mobile:px-[5vw] md:px-[3vw] py-[1vh] mobile:text-sm md:text-lg lg:text-xl transition-colors duration-700'  
+                    >
+                      EXPLORE
+                    </Link>
+                    <Link
+                      href='/booking/standard'
+                      className='w-full bg-gray-800 bg-opacity-0 hover:bg-white text-white hover:text-gray-800 border border-white  rounded mobile:px-[5vw] md:px-[3vw] py-[1vh] mobile:text-sm md:text-lg lg:text-xl transition-colors duration-700'  
+                    >
+                      BOOKING
+                    </Link>                
+                  </div>
+                </div>                
+              </div>
             </li>
-            <li>
-              <Link href='/accomodation/supreior'>
-                <h1>Suprerior Room</h1>
-              </Link>
+
+           <li className='bg-gray-50'>
+               <div className='flex flex-row items-center justify-center w-full hover:p-10 transition-all duration-1000'> 
+                <div className='flex flex-col w-full text-center gap-y-[1vh] mobile:py-[3vh] md:p-0'>
+                  <h1 className='mobile:text-xl md:text-4xl'>
+                    STANDARD ROOM
+                  </h1>
+                  <p className='px-[5vw] mb-[2vh] mobile:text-sm md:text-lg lg:text-xl'>
+                    Experience comfort and convenience in our Standard rooms, designed for a relaxing stay. These rooms offer modern amenities and a cozy ambiance, providing everything you need for a pleasant retreat.
+                  </p>
+                  <div className='flex mobile:flex-col md:flex-row gap-y-[1vh] gap-x-[2vw] items-center  mobile:center md:justify-between px-[5vw]'>
+                    <Link
+                      href='/accomodation/standard'
+                      className='w-full bg-white hover:bg-coldGold hover:text-white border border-coldGold text-coldGold rounded mobile:px-[5vw] md:px-[3vw] py-[1vh] mobile:text-sm md:text-lg lg:text-xl transition-colors duration-700'  
+                    >
+                      EXPLORE
+                    </Link>
+                    <Link
+                      href='/booking/standard'
+                      className='w-full bg-coldGold bg-opacity-70 hover:bg-opacity-100 border border-white text-white rounded mobile:px-[5vw] md:px-[3vw] py-[1vh] mobile:text-sm md:text-lg lg:text-xl transition-colors duration-700'  
+                    >
+                      BOOKING
+                    </Link>                
+                  </div>
+                </div>                 
+                <Image
+                  src='/assets/hotelsImg/In2.png'
+                  alt=''
+                  width={3840}
+                  height={2160}
+                  className='w-2/5 hover:scale-95 transition-all duration-1000 mobile:px-[1vw] md:p-0'
+                />
+              </div>
             </li>
-            <li>
-            <Link href='/accomodation/three-bed'>
-                <h1>Three bed Room</h1>
-              </Link>
+            <li className='bg-gray-800 text-white'>
+            <div className='flex flex-row items-center justify-center w-full hover:p-10 transition-all duration-1000'> 
+                <Image
+                  src='/assets/hotelsImg/In2.png'
+                  alt=''
+                  width={3840}
+                  height={2160}
+                  className='w-2/5 hover:scale-95 transition-all duration-1000 mobile:px-[1vw] md:p-0'
+                />
+                <div className='flex flex-col w-full text-center gap-y-[1vh] mobile:py-[3vh] md:p-0'>
+                  <h1 className='mobile:text-xl md:text-4xl'>
+                    STANDARD ROOM
+                  </h1>
+                  <p className='px-[5vw] mb-[2vh] mobile:text-sm md:text-lg lg:text-xl'>
+                    Experience comfort and convenience in our Standard rooms, designed for a relaxing stay. These rooms offer modern amenities and a cozy ambiance, providing everything you need for a pleasant retreat.
+                  </p>
+                  <div className='flex mobile:flex-col md:flex-row gap-y-[1vh] gap-x-[2vw] items-center  mobile:center md:justify-between px-[5vw]'>
+                    <Link
+                      href='/accomodation/standard'
+                      className='w-full bg-white bg-opacity-0 hover:bg-opacity-10 text-white hover:text-gray-100 border border-white rounded mobile:px-[5vw] md:px-[3vw] py-[1vh] mobile:text-sm md:text-lg lg:text-xl transition-colors duration-700'  
+                    >
+                      EXPLORE
+                    </Link>
+                    <Link
+                      href='/booking/standard'
+                      className='w-full bg-gray-800 bg-opacity-0 hover:bg-white text-white hover:text-gray-800 border border-white  rounded mobile:px-[5vw] md:px-[3vw] py-[1vh] mobile:text-sm md:text-lg lg:text-xl transition-colors duration-700'  
+                    >
+                      BOOKING
+                    </Link>                
+                  </div>
+                </div>                
+              </div>
             </li>
-            <li>
-            <Link href='/accomodation/deluxe'>
-                <h1>Deluxe Room</h1>
-              </Link>
-            </li>            
+            <li className='bg-gray-50'>
+            <div className='flex flex-row items-center justify-center w-full hover:p-10 transition-all duration-1000'> 
+                <div className='flex flex-col w-full text-center gap-y-[1vh] mobile:py-[3vh] md:p-0'>
+                  <h1 className='mobile:text-xl md:text-4xl'>
+                    STANDARD ROOM
+                  </h1>
+                  <p className='px-[5vw] mb-[2vh] mobile:text-sm md:text-lg lg:text-xl'>
+                    Experience comfort and convenience in our Standard rooms, designed for a relaxing stay. These rooms offer modern amenities and a cozy ambiance, providing everything you need for a pleasant retreat.
+                  </p>
+                  <div className='flex mobile:flex-col md:flex-row gap-y-[1vh] gap-x-[2vw] items-center  mobile:center md:justify-between px-[5vw]'>
+                    <Link
+                      href='/accomodation/standard'
+                      className='w-full bg-white hover:bg-coldGold hover:text-white border border-coldGold text-coldGold rounded mobile:px-[5vw] md:px-[3vw] py-[1vh] mobile:text-sm md:text-lg lg:text-xl transition-colors duration-700'  
+                    >
+                      EXPLORE
+                    </Link>
+                    <Link
+                      href='/booking/standard'
+                      className='w-full bg-coldGold bg-opacity-70 hover:bg-opacity-100 border border-white text-white rounded mobile:px-[5vw] md:px-[3vw] py-[1vh] mobile:text-sm md:text-lg lg:text-xl transition-colors duration-700'  
+                    >
+                      BOOKING
+                    </Link>                
+                  </div>
+                </div>              
+                <Image
+                  src='/assets/hotelsImg/In2.png'
+                  alt=''
+                  width={3840}
+                  height={2160}
+                  className='w-2/5 hover:scale-95 transition-all duration-1000 mobile:px-[1vw] md:p-0'
+                />
+              </div>
+            </li>           
           </ul>
 
         </div>

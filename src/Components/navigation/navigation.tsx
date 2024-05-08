@@ -16,14 +16,12 @@ export default function Navigation({}: Props) {
                         <li className='justify-center items-center hover:bg-gray-100 h-full py-[2vh] px-[2vw] cursor-pointer'>
                             <IoMenuOutline className='text-2xl' />
                         </li>
-                        <li>
-                            <Link
-                                className='justify-center items-center bg-coldGold opacity-80 hover:opacity-100  h-full py-[2vh] px-[2vw]'
+                        <Link
+                                className='justify-center items-center bg-coldGold opacity-80 hover:opacity-100 h-full py-[2vh] px-[2vw]'
                                 href='/booking'
-                            >
+                        >
                                 <h1 className='text-white lg:text-xl md:text-base'>BOOK NOW</h1>
-                            </Link>
-                        </li>
+                        </Link>
                     </div>
                     <div className='mobile:hidden md:flex flex-row items-center  w-full transition-all h-full'>
                         <Link
