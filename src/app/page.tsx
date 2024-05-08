@@ -8,7 +8,7 @@ export default async function Home() {
   // Function to delay execution
   const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
-  await delay(3000);
+  await delay(2000);
 
   return (
     <main className="">
