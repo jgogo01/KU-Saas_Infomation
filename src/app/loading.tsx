@@ -1,11 +1,16 @@
+
 import React from 'react'
+
+import { Spin } from "antd";
 
 type Props = {}
 
 export default function Loading({}: Props) {
   return (
-    <main className='w-[100vw] h-[100vh] bg-green-800'>
-        loading...qwer
+    <main className='flex flex-col h-[100vh] w-[100vw] text-center justify-center bg-coldGold bg-opacity-10'>
+      <div className='animate-bounce'>
+        Loading ...
+      </div>
     </main>
   )
 }

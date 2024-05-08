@@ -2,10 +2,6 @@ import type { Metadata } from "next";
 import { Cormorant , Playfair } from "next/font/google";
 
 import "./globals.css";
-
-import Navigation from "@/Components/navigation/navigation";
-import Footer from "@/Components/Footer/footer";
-
 // const cormorant = Cormorant({
 //   weight: ["300","400","700"],
 //   subsets: ["latin"],
@@ -30,9 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${playfair.className}`}>
-        <Navigation/>
         {children}
-        <Footer/>
       </body>
     </html>
   );

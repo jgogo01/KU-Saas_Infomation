@@ -14,13 +14,13 @@ export default function Accomodation({}: Props) {
           </h1> */}
           <ul className='items-center justify-center'>
             <li className='bg-gray-800 text-white'>
-              <div className='flex flex-row items-center justify-center w-full hover:p-8 transition-all duration-1000'> 
+              <div className='flex flex-row items-center justify-center w-full hover:p-8 transition-all duration-[1.5s]'> 
                 <Image
                   src='/assets/hotelsImg/In2.png'
                   alt=''
                   width={3840}
                   height={2160}
-                  className='w-2/5 hover:scale-95 transition-all duration-1000 mobile:px-[1vw] md:p-0'
+                  className='w-2/5 hover:scale-95 transition-all duration-[1.5s] mobile:px-[1vw] md:p-0'
                 />
                 <div className='flex flex-col w-full text-center gap-y-[1vh] mobile:py-[3vh] md:p-0'>
                   <h1 className='mobile:text-xl md:text-4xl'>
@@ -48,7 +48,7 @@ export default function Accomodation({}: Props) {
             </li>
 
            <li className='bg-gray-50'>
-              <div className='flex flex-row items-center justify-center w-full hover:p-10 transition-all duration-1000'> 
+              <div className='flex flex-row items-center justify-center w-full hover:p-10 transition-all duration-[1.5s]'> 
                 <div className='flex flex-col w-full text-center gap-y-[1vh] mobile:py-[3vh] md:p-0'>
                   <h1 className='mobile:text-xl md:text-4xl'>
                     SUPERIOR ROOM
@@ -75,18 +75,18 @@ export default function Accomodation({}: Props) {
                   alt=''
                   width={3840}
                   height={2160}
-                  className='w-2/5 hover:scale-95 transition-all duration-1000 mobile:px-[1vw] md:p-0'
+                  className='w-2/5 hover:scale-95 transition-all duration-[1.5s] mobile:px-[1vw] md:p-0'
                 />
               </div>
             </li>
             <li className='bg-gray-800 text-white'>
-            <div className='flex flex-row items-center justify-center w-full hover:p-10 transition-all duration-1000'> 
+            <div className='flex flex-row items-center justify-center w-full hover:p-10 transition-all duration-[1.5s]'> 
                 <Image
                   src='/assets/hotelsImg/in7.png'
                   alt=''
                   width={3840}
                   height={2160}
-                  className='w-2/5 hover:scale-95 transition-all duration-1000 mobile:px-[1vw] md:p-0'
+                  className='w-2/5 hover:scale-95 transition-all duration-[1.5s] mobile:px-[1vw] md:p-0'
                 />
                 <div className='flex flex-col w-full text-center gap-y-[1vh] mobile:py-[3vh] md:p-0'>
                   <h1 className='mobile:text-xl md:text-4xl'>
@@ -112,7 +112,7 @@ export default function Accomodation({}: Props) {
               </div>
             </li>
             <li className='bg-gray-50'>
-            <div className='flex flex-row items-center justify-center w-full hover:p-10 transition-all duration-1000'> 
+            <div className='flex flex-row items-center justify-center w-full hover:p-10 transition-all duration-[1.5s]'> 
                 <div className='flex flex-col w-full text-center gap-y-[1vh] mobile:py-[3vh] md:p-0'>
                   <h1 className='mobile:text-xl md:text-4xl'>
                   THREE BED ROOM
@@ -139,7 +139,7 @@ export default function Accomodation({}: Props) {
                   alt=''
                   width={3840}
                   height={2160}
-                  className='w-2/5 hover:scale-95 transition-all duration-1000 mobile:px-[1vw] md:p-0'
+                  className='w-2/5 hover:scale-95 transition-all duration-[1.5s] mobile:px-[1vw] md:p-0'
                 />
               </div>
             </li>           
