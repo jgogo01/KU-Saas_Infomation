@@ -4,6 +4,7 @@ import { Cormorant , Playfair } from "next/font/google";
 import "./globals.css";
 
 import Navigation from "@/Components/navigation/navigation";
+import Footer from "@/Components/Footer/footer";
 
 // const cormorant = Cormorant({
 //   weight: ["300","400","700"],
@@ -31,6 +32,7 @@ export default function RootLayout({
       <body className={`${playfair.className} overflow-x-hidden`}>
         <Navigation/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

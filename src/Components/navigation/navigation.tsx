@@ -19,7 +19,7 @@ export default function Navigation({}: Props) {
                 <ul className='flex flex-row gap-x-[2vw] lg:gap-x-[3vw] items-center mobile:w-full h-full'>
                     <ul className='mobile:flex md:hidden flex-row items-center w-full justify-between'>
                         {/* responsive handle < md */}
-                        <li className='justify-center items-center hover:bg-gray-100 h-full py-[2vh] px-[2vw]'>
+                        <li className='justify-center items-center hover:bg-gray-100 h-full py-[2vh] px-[2vw] cursor-pointer'>
                             <IoMenuOutline className='text-2xl'/>                            
                         </li>
                         <li className='justify-center items-center bg-coldGold opacity-80 hover:opacity-100  h-full py-[2vh] px-[2vw]'> 
@@ -28,33 +28,33 @@ export default function Navigation({}: Props) {
                             </Link>
                         </li>
                     </ul>
-                    <ul className='mobile:hidden md:flex flex-row items-center  w-full transition-all h-full '>
+                    <ul className='mobile:hidden md:flex flex-row items-center  w-full transition-all h-full cursor-pointer'>
                         <li className='flex w-full justify-center items-center hover:bg-gray-100  h-full py-[2.5vh] px-[2vw]'>
                             <Link href='/'>
                                 <h1 className='lg:text-xl md:text-base'>HOME</h1>
                             </Link>
                         </li>
-                        <li className='flex w-full justify-center items-center hover:bg-gray-100 h-full py-[2.5vh] px-[2vw]'> 
+                        <li className='flex w-full justify-center items-center hover:bg-gray-100 h-full py-[2.5vh] px-[2vw] cursor-pointer'> 
                             <Link href='/accomodation'>
                                 <h1 className='lg:text-xl md:text-base'>ROOM</h1>
                             </Link>
                         </li>
-                        <li className='flex w-full justify-center items-center hover:bg-gray-100 h-full py-[2.5vh] px-[2vw]'> 
+                        <li className='flex w-full justify-center items-center hover:bg-gray-100 h-full py-[2.5vh] px-[2vw] cursor-pointer '> 
                             <Link href='/facility'>
                                 <h1 className='lg:text-xl md:text-base'>FACILITIES</h1>
                             </Link>
                         </li> 
-                        <li className='flex w-full justify-center items-center hover:bg-gray-100 h-full py-[2.5vh] px-[2vw]'> 
+                        <li className='flex w-full justify-center items-center hover:bg-gray-100 h-full py-[2.5vh] px-[2vw] cursor-pointer'> 
                             <Link href='/location'>
                                 <h1 className='lg:text-xl md:text-base'>LOCATIONS</h1>
                             </Link>
                         </li>
-                        <li className='flex w-full justify-center items-center hover:bg-gray-100 h-full py-[2.5vh] px-[2vw]'> 
+                        <li className='flex w-full justify-center items-center hover:bg-gray-100 h-full py-[2.5vh] px-[2vw] cursor-pointer'> 
                             <Link href='/contact'>
                                 <h1 className='lg:text-xl md:text-base'>CONTACT</h1>
                             </Link>
                         </li>
-                        <li className='flex w-full justify-center items-center bg-coldGold opacity-80 hover:opacity-100 h-full py-[2.5vh] px-[2vw]'> 
+                        <li className='flex w-full justify-center items-center bg-coldGold opacity-80 hover:opacity-100 h-full py-[2.5vh] px-[2vw] cursor-pointer'> 
                             <Link href='/booking'>
                                 <h1 className='text-white lg:text-xl md:text-base'>BOOK NOW</h1>
                             </Link>
