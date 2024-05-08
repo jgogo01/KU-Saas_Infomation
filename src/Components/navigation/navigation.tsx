@@ -40,7 +40,7 @@ export default function Navigation({}: Props) {
                             </Link>
                         </li>
                         <li className='flex w-full justify-center items-center hover:bg-gray-100 h-full py-[2.5vh] px-[2vw]'> 
-                            <Link href='/facilities'>
+                            <Link href='/facility'>
                                 <h1 className='lg:text-xl md:text-base'>FACILITIES</h1>
                             </Link>
                         </li> 
