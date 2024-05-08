@@ -1,8 +1,4 @@
-'use client'
 import React from 'react'
-
-import { FcLikePlaceholder } from "react-icons/fc";
-
 
 export default function Loading() {
   return (
@@ -14,7 +10,6 @@ export default function Loading() {
           </h1>
         </div>
       </div>
-      
     </main>
   )
 }

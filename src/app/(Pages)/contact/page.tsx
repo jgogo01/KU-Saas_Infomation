@@ -2,8 +2,13 @@ import React from 'react'
 
 type Props = {}
 
-export default function page({}: Props) {
-  return (
-    <div>page</div>
-  )
+export default async function page({}: Props) {
+    const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
+    await delay(1500);
+
+    return (
+      <main>
+        contact placeholder
+      </main>
+    )
 }
