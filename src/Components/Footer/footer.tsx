@@ -98,8 +98,8 @@ export default function Footer() {
                 </p>
      
             </div>
-           <h1 className='text-center flex text-white opacity-70 text-base'>
-                The SaaS Residence Hotel is a registered trademark of The SaaS Residence Hospitality Group. The SaaS Residence Hotel World's Best Awards is used under license.The SaaS Residence Hotel is published by The SaaS Resident Hotel, which is not affiliated with any other companies or organizations mentioned herein.
+            <h1 className='text-center flex text-white opacity-70 text-base'>
+                The SaaS Residence Hotel is a registered trademark of The SaaS Residence Hospitality Group. The SaaS Residence Hotel World&apos;s Best Awards is used under license. The SaaS Residence Hotel is published by The SaaS Resident Hotel, which is not affiliated with any other companies or organizations mentioned herein.
             </h1>
         </div>
 
