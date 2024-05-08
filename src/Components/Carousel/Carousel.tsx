@@ -10,7 +10,6 @@ export default function CarouselRender({}: Props) {
     <>
     <Carousel
           autoplay
-          arrows
           draggable
           autoplaySpeed={4000}
           dotPosition='bottom'
