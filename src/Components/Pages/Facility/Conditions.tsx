@@ -28,19 +28,19 @@ export default function Conditions({}: Props) {
                         </li>
                         <li className='flex flex-row text-gray-700 items-center gap-x-[2vw]'>
                             <LuDot className='text-3xl'/>
-                            <p className='text-lg'>Early check in before 10:00 am will require a full day's charge.</p>
+                            <p className='text-lg'>Early check in before 10:00 am will require a full day&apos;s charge.</p>
                         </li>
                         <li className='flex flex-row text-gray-700 items-center gap-x-[2vw]'>
                             <LuDot className='text-3xl'/>
-                            <p className='text-lg'>Early check in between 10:00 am - 2:00 pm will require a half day's charge.</p>
+                            <p className='text-lg'>Early check in between 10:00 am - 2:00 pm will require a half day&apos;s charge.</p>
                         </li>
                         <li className='flex flex-row text-gray-700 items-center gap-x-[2vw]'>
                             <LuDot className='text-3xl'/>
-                            <p className='text-lg'>Late check out from 12:00 pm to 4:00 pm will require a half day's charge.</p>
+                            <p className='text-lg'>Late check out from 12:00 pm to 4:00 pm will require a half day&apos;s charge.</p>
                         </li>
                         <li className='flex flex-row text-gray-700 items-center gap-x-[2vw]'>
                             <LuDot className='text-3xl'/>
-                            <p className='text-lg'>Late check-out from 4:00 pm will require a full day's charge.</p>
+                            <p className='text-lg'>Late check-out from 4:00 pm will require a full day&apos;s charge.</p>
                         </li>
                         <li className='flex flex-row text-gray-700 items-center gap-x-[2vw]'>
                             <LuDot className='text-3xl'/>
@@ -48,7 +48,7 @@ export default function Conditions({}: Props) {
                         </li>
                         <li className='flex flex-row text-gray-700 items-center gap-x-[2vw]'>
                             <LuDot className='text-3xl'/>
-                            <p className='text-lg'>Reservations will be cancelled at the hotel's discretion without prior notice should an invalid credit card be submitted.</p>
+                            <p className='text-lg'>Reservations will be cancelled at the hotel&apos;s discretion without prior notice should an invalid credit card be submitted.</p>
                         </li>
                         <li className='flex flex-row text-gray-700 items-center gap-x-[2vw]'>
                             <LuDot className='text-3xl'/>
