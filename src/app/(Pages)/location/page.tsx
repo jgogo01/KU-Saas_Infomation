@@ -7,8 +7,8 @@ export default async function page({}: Props) {
     await delay(1500);
 
     return (
-      <main>
-        location placeholder
+      <main className='text-center h-[95vh] bg-gray-100'>
+        Google PLaceholder 
       </main>
     )
 }
