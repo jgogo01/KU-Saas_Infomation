@@ -13,9 +13,12 @@ export default async function page({}: Props) {
     return (
       <main className='flex flex-col'>
         <span className='flex bg-gray-200 h-[10vh] w-full'>
-          
+
         </span>
         <Facility/>
+        <span className='flex bg-gray-200 h-[10vh] w-full'>
+          
+          </span>
         <Conditions/>
       </main>
     )
