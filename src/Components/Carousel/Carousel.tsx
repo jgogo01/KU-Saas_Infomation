@@ -55,7 +55,7 @@ export default function CarouselRender({}: Props) {
           </div>
           <div className='flex w-full h-fit max-h-[70vh] text-center items-center overflow-y-scroll'>
             <Image
-              src='/assets/hotelsImg/In1.png'
+              src='/assets/hotelsImg/in1.png'
               alt='Hotels structure image'
               className=''
               width={3840}

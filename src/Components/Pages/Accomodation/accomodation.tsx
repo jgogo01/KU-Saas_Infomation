@@ -71,7 +71,7 @@ export default function Accomodation({}: Props) {
                   </div>
                 </div>                 
                 <Image
-                  src='/assets/hotelsImg/In10.png'
+                  src='/assets/hotelsImg/in10.png'
                   alt=''
                   width={3840}
                   height={2160}
